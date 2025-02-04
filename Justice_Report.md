@@ -78,8 +78,7 @@ Each optimization choice contributed to the model’s performance:
 ## 3. Team Comparison and Unique Contributions
 
 ### 3.1 Comparison of Approaches
-- **Team Member 1 (L2 Regularization)**: While effective, their approach lacked the feature selection benefits offered by my L1 strategy.
-- **Team Member 2 (Dropout only)**: My combined use of dropout and L1 regularization produced better generalization.
+- **Team Member 2 (L2 Regularization)**: While effective, their approach lacked the feature selection benefits offered by my L1 strategy.
 - **Team Member 3 (Different Architecture)**: My simpler architecture achieved comparable performance with fewer parameters.
 
 ---
