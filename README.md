@@ -70,6 +70,3 @@ View loss curves, accuracy metrics, and confusion matrices.
 - Madol Abraham Kuol Madol: Training L2 + Adam model.
 - Willy Kalisa: Training L2 + SGD Model
 - Instructor: Providing feedback and project guidelines.
-
-## Summary Table
-
