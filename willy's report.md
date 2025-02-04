@@ -1,6 +1,6 @@
 # Executive Summary
 
-This document presents my implementation and analysis of a neural network model for water quality classification. Utilizing **L2 regularization** and a well-calibrated combination of optimization techniques, I achieved an **accuracy of X%** on the test set. My approach focuses on balancing model complexity and generalization, ensuring a stable learning process.
+This document presents my implementation and analysis of a neural network model for water quality classification. Utilizing **L2 regularization** and a well-calibrated combination of optimization techniques, I achieved an **accuracy of 68%** on the test set. My approach focuses on balancing model complexity and generalization, ensuring a stable learning process.
 
 ---
 
@@ -53,19 +53,12 @@ I utilized early stopping with a patience of **10 epochs**, monitoring validatio
 ### 2.1 Model Metrics
 The model’s performance is summarized below:
 
-| Class | Precision | Recall | F1-Score | Support |
+| Class | Precision | Recall | F1-Score | precision |
 |-------|-----------|--------|----------|---------|
-| 0     | X.XX      | X.XX   | X.XX     | XXX     |
-| 1     | X.XX      | X.XX   | X.XX     | XXX     |
+| 1     | 0.6869    | 0.3542 |0.4674    |0.6869   |
 
-**Overall metrics:**
-- **Accuracy**: X.XX%
-- **Macro Average**: X.XX
-- **Weighted Average**: X.XX
 
-These results indicate **[model strengths and areas for improvement, e.g., challenges in handling class imbalance]**.
 
----
 
 ### 2.2 Impact of Key Decisions
 Each optimization technique contributed to the model’s performance:
